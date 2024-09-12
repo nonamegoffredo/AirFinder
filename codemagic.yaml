@@ -9,7 +9,7 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: bundleID
+        bundle_identifier: goffredoairfinder.com
       vars:
         BUNDLE_ID: "goffredoairfinder.com"
         XCODE_WORKSPACE: "GodfreyProject.xcodeproj" # <-- Put the name of your Xcode workspace here
