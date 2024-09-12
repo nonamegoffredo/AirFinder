@@ -63,8 +63,6 @@ var ggqjzeuidxk:  Set<Double> {
         switch self {
         case .xiosvfgipkmju:
             return Izgd.digzkisehsrlf
-        case .ezbnh:
-            return Izgd.dtw
         case .uultgxk:
             return Izgd.rukzqxj
         case .mzfh:
