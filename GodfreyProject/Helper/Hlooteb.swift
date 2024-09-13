@@ -42,7 +42,6 @@ var mfydagjgprz:  Array<Int> {
     
     static let tlwdnktvde = "public_live_wOKgXEU7.jteURUM6nKKM6S2Z8Foq"
     static let kgz = "airFinderPlacement"
-    static let digzkisehsrlf = "airFinderBaseTrial"
     static let rukzqxj = "airFinderWeekTrial"
     static let nybgobqsqi = "airFinderMonthTrial"
     static let aghbokd = "airFinderYearTrial"

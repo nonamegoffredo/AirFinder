@@ -80,7 +80,7 @@ uxekr()
     let rqglme = rqglme
 uxekr()
 
-           let iohyxdp = URL(string: "https://www.example.com")!
+           let iohyxdp = URL(string: "https://itunes.apple.com/app/id6677048311")!
            
            let mvrnzpftcnmje = [iohyxdp] as [Any]
            

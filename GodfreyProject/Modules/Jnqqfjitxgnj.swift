@@ -44,8 +44,8 @@ nnoul()
             config.uwfp = juvupvl.configValue(forKey: "uwfp").boolValue
             config.itubsmlarrn = juvupvl.configValue(forKey: "itubsmlarrn").boolValue
             config.lkcbwyy = juvupvl.configValue(forKey: "lkcbwyy").numberValue as! Int
-            config.dcpwmalpnvwpcb = juvupvl.configValue(forKey: "pageControlExist").boolValue
-            config.gxmuhhfgrk = juvupvl.configValue(forKey: "showErrorAlert").boolValue
+            config.dcpwmalpnvwpcb = juvupvl.configValue(forKey: "dcpwmalpnvwpcb").boolValue
+            config.gxmuhhfgrk = juvupvl.configValue(forKey: "gxmuhhfgrk").boolValue
             config.bazaiywkmg = Qqznlut(rawValue: juvupvl.configValue(forKey: "bazaiywkmg").stringValue ?? "") ?? .dseaclvkvnu
             
             await ankrkypkv.pru()

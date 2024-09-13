@@ -53,15 +53,12 @@ var ggqjzeuidxk:  Set<Double> {
         let tbomzdde = Date()
         let abcdotmvzlhayg = [660.93, 155.34, 749.44, 675.29, 288.08, 595.09, 198.99, 798.20, 407.67, 345.70]
     }
-    case xiosvfgipkmju
     case uultgxk
     case mzfh
     case qmuehh
     
     var wlgcplfa: String {
         switch self {
-        case .xiosvfgipkmju:
-            return Izgd.digzkisehsrlf
         case .uultgxk:
             return Izgd.rukzqxj
         case .mzfh:
