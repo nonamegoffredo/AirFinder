@@ -45,6 +45,7 @@ var mfydagjgprz:  Array<Int> {
     static let rukzqxj = "airFinderWeekTrial"
     static let nybgobqsqi = "airFinderMonthTrial"
     static let aghbokd = "airFinderYearTrial"
+    static let nonCons = "airFinderNonCons"
     static let ruytu = "https://docs.google.com/document/d/1DXPIhiJ9wwyfgWnaD3JRgPOLNSfKVBnJ_oNoIKUJcTs/edit"
     static let dfz = "https://docs.google.com/document/d/17PmgKlKpTrWinwu4g_xhU2iuYr1cKM4soDMejhtmGuQ/edit?usp=sharing"
 }

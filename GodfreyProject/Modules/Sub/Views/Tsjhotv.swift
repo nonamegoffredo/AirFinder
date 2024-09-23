@@ -204,11 +204,18 @@ ewixqk()
         jmkhy.hwdlcibjfld.text = "Yearly"
         jmkhy.tid.text = "then $29.99"
         jmkhy.aszknsii.text = "$0,62/week"
+        let lifetime = Sfcqaknj()
+        lifetime.hwdlcibjfld.text = "Lifetime"
+        lifetime.tid.text = "then $39.99"
+        lifetime.aszknsii.text = "$0,77/week"
+        lifetime.ncgfj.text = "FULL ACCESS"
+       // lifetime.gqavsgzk.isHidden = true
         asre.addAction(UIAction(handler: { _ in
             self.delegate?.ictsxmig(self, irkhvaojyqtm: asre, zrhnhuotfceiu: .mzfh)
             asre.vhiy(isSelected: true)
             xtifad.vhiy(isSelected: false)
             jmkhy.vhiy(isSelected: false)
+            lifetime.vhiy(isSelected: false)
             if Fplmuqzve.shared.bazaiywkmg == .dseaclvkvnu {
                 self.czqoacwk.ivhdxhfsomtmbc.text = "Try 3-day Free Trial then $14.99/month"
                 self.czqoacwk.dkkiiiokik.text = "Auto renewable. Cancel anytime"
@@ -219,6 +226,7 @@ ewixqk()
             asre.vhiy(isSelected: false)
             xtifad.vhiy(isSelected: true)
             jmkhy.vhiy(isSelected: false)
+            lifetime.vhiy(isSelected: false)
             if Fplmuqzve.shared.bazaiywkmg == .dseaclvkvnu {
                 self.czqoacwk.ivhdxhfsomtmbc.text = "Try 3-day Free Trial then $6.99/week"
                 self.czqoacwk.dkkiiiokik.text = "Auto renewable. Cancel anytime"
@@ -229,15 +237,32 @@ ewixqk()
             asre.vhiy(isSelected: false)
             xtifad.vhiy(isSelected: false)
             jmkhy.vhiy(isSelected: true)
+            lifetime.vhiy(isSelected: false)
             if Fplmuqzve.shared.bazaiywkmg == .dseaclvkvnu {
                 self.czqoacwk.ivhdxhfsomtmbc.text = "Try 3-day Free Trial then $29.99/year"
                 self.czqoacwk.dkkiiiokik.text = "Auto renewable. Cancel anytime"
             }
             
         }), for: .touchUpInside)
+        lifetime.addAction(UIAction(handler: { _ in
+            self.delegate?.ictsxmig(self, irkhvaojyqtm: lifetime, zrhnhuotfceiu: .nonCons)
+            asre.vhiy(isSelected: false)
+            xtifad.vhiy(isSelected: false)
+            jmkhy.vhiy(isSelected: false)
+            lifetime.vhiy(isSelected: true)
+            if Fplmuqzve.shared.bazaiywkmg == .dseaclvkvnu {
+                self.czqoacwk.ivhdxhfsomtmbc.text = "Continue"
+                self.czqoacwk.dkkiiiokik.text = "Full access"
+                
+            }
+            
+        }), for: .touchUpInside)
         jehpytcpc.addArrangedSubview(asre)
         jehpytcpc.addArrangedSubview(xtifad)
         jehpytcpc.addArrangedSubview(jmkhy)
+        if Fplmuqzve.shared.bazaiywkmg == .dseaclvkvnu {
+            jehpytcpc.addArrangedSubview(lifetime)
+        }
         czqoacwk.snp.remakeConstraints({ make in
             make.leading.trailing.equalToSuperview().inset(15)
             make.centerX.equalToSuperview()

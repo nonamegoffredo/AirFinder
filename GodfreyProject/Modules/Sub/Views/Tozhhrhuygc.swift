@@ -140,7 +140,11 @@ wpynhdcnfcuw()
         hwdlcibjfld.font = UIFont(name: Iuoc.colyjkflbupe, size: 16)
         hwdlcibjfld.textColor = .white
         hwdlcibjfld.textAlignment = .center
-        ncgfj.font = UIFont(name: Iuoc.colyjkflbupe, size: 16)
+        if Fplmuqzve.shared.bazaiywkmg == .dseaclvkvnu {
+            ncgfj.font = UIFont(name: Iuoc.vduny, size: 7)
+        } else {
+            ncgfj.font = UIFont(name: Iuoc.vduny, size: 10)
+        }
         ncgfj.textColor = .white
         ncgfj.textAlignment = .center
         ncgfj.text = "3-DAY FREE TRIAL"
@@ -153,7 +157,6 @@ wpynhdcnfcuw()
         cobkxsm.addArrangedSubview(hwdlcibjfld)
         cobkxsm.addArrangedSubview(tid)
         cobkxsm.addArrangedSubview(aszknsii)
-        
         
         self.addSubview(gqavsgzk)
         self.addSubview(ncgfj)
@@ -193,7 +196,12 @@ wpynhdcnfcuw()
         }
         gqavsgzk.backgroundColor = Yckvngyftmtv.purple
         gqavsgzk.layer.cornerRadius = 10
-        ncgfj.font = UIFont(name: Iuoc.vduny, size: 10)
+        if Fplmuqzve.shared.bazaiywkmg == .dseaclvkvnu {
+            ncgfj.font = UIFont(name: Iuoc.vduny, size: 7)
+        } else {
+            ncgfj.font = UIFont(name: Iuoc.vduny, size: 10)
+        }
+        
         ncgfj.textAlignment = .center
         hwdlcibjfld.font = UIFont(name: Iuoc.vduny, size: 16)
        

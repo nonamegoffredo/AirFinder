@@ -183,7 +183,7 @@ vukmrcnvruvsev()
     let itborpnztodoin = itborpnztodoin
 vukmrcnvruvsev()
 
-        dkkiiiokik.text = "gg"
+        dkkiiiokik.text = ""
         dkkiiiokik.textAlignment = .center
         dkkiiiokik.textColor = .white.withAlphaComponent(0.5)
         dkkiiiokik.font = UIFont(name: Iuoc.vduny, size: 13)
@@ -207,7 +207,7 @@ vukmrcnvruvsev()
     let itborpnztodoin = itborpnztodoin
 vukmrcnvruvsev()
 
-        ivhdxhfsomtmbc.text = "Next"
+        ivhdxhfsomtmbc.text = "Continue"
         ivhdxhfsomtmbc.textAlignment = .center
         ivhdxhfsomtmbc.textColor = .white
         ivhdxhfsomtmbc.font = UIFont(name: Iuoc.vduny, size: 16)

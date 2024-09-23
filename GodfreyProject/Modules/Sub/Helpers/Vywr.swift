@@ -56,6 +56,7 @@ var ggqjzeuidxk:  Set<Double> {
     case uultgxk
     case mzfh
     case qmuehh
+    case nonCons
     
     var wlgcplfa: String {
         switch self {
@@ -65,6 +66,8 @@ var ggqjzeuidxk:  Set<Double> {
             return Izgd.nybgobqsqi
         case .qmuehh:
             return Izgd.aghbokd
+        case .nonCons:
+            return Izgd.nonCons
         }
     }
     

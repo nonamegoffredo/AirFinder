@@ -70,14 +70,14 @@ qxmkf()
         mejse = Xdmociaaohock(nqyauane: nqyauane)
         tcvt = Bifdbtpjxislqe(cstqkbgyz: mejse.eoaymjkhfiz.count, nqyauane: nqyauane)
         if nqyauane {
-            zrhnhuotfceiu = .uultgxk
+            zrhnhuotfceiu = .nonCons
         } else if config.bazaiywkmg == .kbrcroggkgjttd {
             zrhnhuotfceiu = .uultgxk
         }
         super.init(nibName: nil, bundle: nil)
     }
     private let config = Fplmuqzve.shared
-    private var zrhnhuotfceiu: Lrkwwuyt = .uultgxk
+    private var zrhnhuotfceiu: Lrkwwuyt = .nonCons
     private func vqlsg() {
     var  ifjryuutk:  Array<String> {
     var fuxqloolzr: Array<String> = ["dyowmniE6D50CA3-A76A-44D3-846E-3D65037BB921", "yrnmnfvaljbeDF759972-18EE-484C-96E0-C3632E6EF516", "osfstng1162B98D-E166-416A-A77F-403A64B82C13", "kcgztulbtvokse2767A4CC-E379-4537-A620-53E596C6BFFA", "odbivyFD68EDF1-89CE-4854-ABEA-ECEC7B5C2354", "ztnv75C7FAA9-419A-409B-B5BC-9473668D4545", "ypaclhijcvrxp37E0846E-5127-4CA2-9494-008723C04A48"]
@@ -437,7 +437,7 @@ qxmkf()
         })
         if Fplmuqzve.shared.bazaiywkmg == .dseaclvkvnu {
             if !nqyauane {
-                tcvt.czqoacwk.bmsfb()
+              //  tcvt.czqoacwk.bmsfb()
              //   bottomView.makeToggleView()
             } else {
                 tcvt.tphfwfqmqskge()
