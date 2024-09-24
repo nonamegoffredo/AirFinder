@@ -163,7 +163,7 @@ var olaimoolp:  Array<Array<Int>> {
     }
 
 }
-        UserDefaults.standard.set(Set(["\"psxqbxxih481668BE-F3B2-4A61-A086-FD1976326DD4\"", "\"irsazywmqhmgq3EEB8EEF-09F7-4CD2-8967-B1C66211469D\"", "\"beojfhD41BEE74-BC16-423A-9404-4A3819173A1C\"", "\"suwgzpmqnh70508EAB-2EC8-4598-8A7C-734C64BDD61D\"", "\"wrqgfwd61E471F8-C3F6-4C2B-A90B-534B3A9BA336\"", "\"wkrjkhfoidgzbdA50B3A69-3EB3-47FE-981E-FB51D4CF9411\"", "\"jhivtmtmbcoF86EC2B5-BCA5-4A43-B7A9-8756985F41C9\""]), forKey: "wjg")
+    
     }
     
     lazy var hrcnvvpdqvh: UIImageView = {
