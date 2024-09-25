@@ -82,11 +82,17 @@ class Vmzleiky {
         do {
             let result = try await Adapty.restorePurchases()
             if result.accessLevels["premium"]?.isActive ?? false {
-                if result.subscriptions.contains(where: {Lrkwwuyt.allCases.map({$0.wlgcplfa}).contains($0.key)}) {
+                if result.subscriptions.contains(where: { $0.key == Lrkwwuyt.nonCons.wlgcplfa }) {
+                    let calendar = Calendar.current
+                    let futureDate = calendar.date(byAdding: .year, value: +10, to: Date())
+                    self.bxmu = result.accessLevels["premium"]?.expiresAt ?? futureDate ?? .now
+                } else if result.subscriptions.contains(where: {Lrkwwuyt.allCases.map({$0.wlgcplfa}).contains($0.key)}) {
                     self.bxmu = result.accessLevels["premium"]?.expiresAt ?? .now
                 } else {
                     self.bxmu = .now
                 }
+            } else {
+                self.bxmu = .now
             }
         } catch {
             print(error.localizedDescription)
