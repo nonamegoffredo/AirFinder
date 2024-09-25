@@ -140,7 +140,7 @@ wpynhdcnfcuw()
         hwdlcibjfld.font = UIFont(name: Iuoc.colyjkflbupe, size: 16)
         hwdlcibjfld.textColor = .white
         hwdlcibjfld.textAlignment = .center
-        if Fplmuqzve.shared.bazaiywkmg == .dseaclvkvnu {
+        if Fplmuqzve.shared.bazaiywkmg != .kbrcroggkgjttd {
             ncgfj.font = UIFont(name: Iuoc.vduny, size: 7)
         } else {
             ncgfj.font = UIFont(name: Iuoc.vduny, size: 10)
@@ -196,7 +196,7 @@ wpynhdcnfcuw()
         }
         gqavsgzk.backgroundColor = Yckvngyftmtv.purple
         gqavsgzk.layer.cornerRadius = 10
-        if Fplmuqzve.shared.bazaiywkmg == .dseaclvkvnu {
+        if Fplmuqzve.shared.bazaiywkmg != .kbrcroggkgjttd {
             ncgfj.font = UIFont(name: Iuoc.vduny, size: 7)
         } else {
             ncgfj.font = UIFont(name: Iuoc.vduny, size: 10)

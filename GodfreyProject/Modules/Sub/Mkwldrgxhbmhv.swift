@@ -69,9 +69,9 @@ qxmkf()
         self.nqyauane = nqyauane
         mejse = Xdmociaaohock(nqyauane: nqyauane)
         tcvt = Bifdbtpjxislqe(cstqkbgyz: mejse.eoaymjkhfiz.count, nqyauane: nqyauane)
-        if nqyauane {
+        if nqyauane && config.bazaiywkmg == .kbrcroggkgjttd {
             zrhnhuotfceiu = .nonCons
-        } else if config.bazaiywkmg == .kbrcroggkgjttd {
+        } else {
             zrhnhuotfceiu = .uultgxk
         }
         super.init(nibName: nil, bundle: nil)

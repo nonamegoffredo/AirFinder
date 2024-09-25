@@ -59,10 +59,22 @@ cezbqfmoegpgd()
             aryd.modalPresentationStyle = .overFullScreen
             present(aryd, animated: true, completion: nil)
         } else {
-            let swsa = Mnbhsts(nqyauane: true)
-            swsa.modalPresentationStyle = .fullScreen
-            swsa.srewigkheerqcg = true
-            self.present(swsa, animated: true)
+            if Fplmuqzve.shared.bazaiywkmg == .dseaclvkvnu {
+                let swsa = Mnbhsts(nqyauane: false)
+                swsa.modalPresentationStyle = .fullScreen
+                swsa.srewigkheerqcg = true
+                self.present(swsa, animated: true)
+            } else if Fplmuqzve.shared.bazaiywkmg == .kbrcroggkgjttd  {
+                let swsa = Mnbhsts(nqyauane: true)
+                swsa.modalPresentationStyle = .fullScreen
+                swsa.srewigkheerqcg = true
+                self.present(swsa, animated: true)
+            } else {
+                let swsa = Mnbhsts(nqyauane: true)
+                swsa.modalPresentationStyle = .fullScreen
+                swsa.srewigkheerqcg = true
+                self.present(swsa, animated: true)
+            }
         }
         
     }
@@ -770,10 +782,22 @@ cezbqfmoegpgd()
                 print("A new Bluetooth authorization status has been added that is not yet handled.")
             }
         } else {
-            let swsa = Mnbhsts(nqyauane: true)
-            swsa.modalPresentationStyle = .fullScreen
-            swsa.srewigkheerqcg = true
-            self.present(swsa, animated: true)
+            if Fplmuqzve.shared.bazaiywkmg == .dseaclvkvnu {
+                let swsa = Mnbhsts(nqyauane: false)
+                swsa.modalPresentationStyle = .fullScreen
+                swsa.srewigkheerqcg = true
+                self.present(swsa, animated: true)
+            } else if Fplmuqzve.shared.bazaiywkmg == .kbrcroggkgjttd  {
+                let swsa = Mnbhsts(nqyauane: true)
+                swsa.modalPresentationStyle = .fullScreen
+                swsa.srewigkheerqcg = true
+                self.present(swsa, animated: true)
+            } else {
+                let swsa = Mnbhsts(nqyauane: true)
+                swsa.modalPresentationStyle = .fullScreen
+                swsa.srewigkheerqcg = true
+                self.present(swsa, animated: true)
+            }
         }
     }
 }
