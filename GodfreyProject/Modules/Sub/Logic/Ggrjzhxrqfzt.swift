@@ -80,7 +80,7 @@ class Vmzleiky {
         gyoxitks()
         
         do {
-            let result = try await Adapty.restorePurchases()
+            let result = try await Adapty.getProfile()
             if result.accessLevels["premium"]?.isActive ?? false {
                 if result.subscriptions.contains(where: { $0.key == Lrkwwuyt.nonCons.wlgcplfa }) {
                     let calendar = Calendar.current
