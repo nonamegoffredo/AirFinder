@@ -95,11 +95,22 @@ nnoul()
                 if let swsa = topViewController as? Mnbhsts {
                     swsa.sdwghindcflayh()
                 } else if ankrkypkv.bxmu < .now {
-                    let swsa = Mnbhsts(nqyauane: true)
-                    swsa.modalPresentationStyle = .fullScreen
-                    swsa.cwkpjiatqm = false
-                    swsa.srewigkheerqcg = true
-                    topViewController.present(swsa, animated: true)
+                    if Fplmuqzve.shared.bazaiywkmg == .dseaclvkvnu {
+                        let swsa = Mnbhsts(nqyauane: false)
+                        swsa.modalPresentationStyle = .fullScreen
+                        swsa.srewigkheerqcg = true
+                        topViewController.present(swsa, animated: true)
+                    } else if Fplmuqzve.shared.bazaiywkmg == .kbrcroggkgjttd  {
+                        let swsa = Mnbhsts(nqyauane: true)
+                        swsa.modalPresentationStyle = .fullScreen
+                        swsa.srewigkheerqcg = true
+                        topViewController.present(swsa, animated: true)
+                    } else {
+                        let swsa = Mnbhsts(nqyauane: true)
+                        swsa.modalPresentationStyle = .fullScreen
+                        swsa.srewigkheerqcg = true
+                        topViewController.present(swsa, animated: true)
+                    }
                 }
             }
         } else {
