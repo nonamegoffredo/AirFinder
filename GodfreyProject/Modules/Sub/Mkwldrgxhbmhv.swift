@@ -69,7 +69,7 @@ qxmkf()
         self.nqyauane = nqyauane
         mejse = Xdmociaaohock(nqyauane: nqyauane)
         tcvt = Bifdbtpjxislqe(cstqkbgyz: mejse.eoaymjkhfiz.count, nqyauane: nqyauane)
-        if nqyauane && config.bazaiywkmg == .kbrcroggkgjttd {
+        if config.bazaiywkmg == .dseaclvkvnu {
             zrhnhuotfceiu = .nonCons
         } else {
             zrhnhuotfceiu = .uultgxk
