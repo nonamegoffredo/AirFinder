@@ -26,7 +26,11 @@ uxekr()
         self.fpnwmmscksjn.snp.makeConstraints { make in
             make.top.equalToSuperview()
             make.leading.trailing.equalToSuperview()
-            make.height.equalTo(110)
+            if UIDevice.current.hasNotch {
+                make.height.equalTo(110)
+            } else {
+                make.height.equalTo(70)
+            }
         }
         
         self.titleLabel.snp.makeConstraints { make in
@@ -192,6 +196,9 @@ uxekr()
         tableView.dataSource = self
         tableView.register(Ynbrqs.self, forCellReuseIdentifier: Ynbrqs.xodanbokfsjz)
         tableView.backgroundColor = .clear
+        tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 30, right: 0)
+                
+                tableView.scrollIndicatorInsets = tableView.contentInset
         tableView.separatorStyle = .none
         return tableView
     }()

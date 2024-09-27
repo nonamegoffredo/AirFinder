@@ -890,7 +890,11 @@ gmilnufktbiqx()
         self.fpnwmmscksjn.snp.makeConstraints { make in
             make.top.equalToSuperview()
             make.leading.trailing.equalToSuperview()
-            make.height.equalTo(110)
+            if UIDevice.current.hasNotch {
+                make.height.equalTo(110)
+            } else {
+                make.height.equalTo(70)
+            }
         }
         
         self.titleLabel.snp.makeConstraints { make in
@@ -901,7 +905,12 @@ gmilnufktbiqx()
         self.yqjz.snp.makeConstraints { make in
             make.leading.trailing.equalToSuperview()
             make.top.equalTo(fpnwmmscksjn.snp.bottom)
-            make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).offset(-30)
+            if UIDevice.current.hasNotch {
+                make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).offset(-30)
+            } else {
+                make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).offset(-70)
+            }
+            
         }
         
         self.tcvt.snp.makeConstraints { make in

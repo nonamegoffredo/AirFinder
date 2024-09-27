@@ -350,3 +350,12 @@ nyrwwcqlzordb()
         ].forEach(self.addSubview)
     } 
 }
+
+extension UIDevice {
+    var hasNotch: Bool {
+        if let window = UIApplication.shared.windows.first {
+            return window.safeAreaInsets.top > 20
+        }
+        return false
+    }
+}
