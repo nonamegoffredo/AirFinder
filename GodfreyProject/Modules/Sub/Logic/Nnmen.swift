@@ -158,7 +158,7 @@ rzsle()
         let yafkmy = Jjhokwdlcqqsw(title: "Organize and Find Your Devices", pyalibsgmljv: ["Manage your devices effortlessly and locate them with ease.", ""], imageName:  "tasist", vztefbmngtd: ["Next"], japjvpgymxxemn: [])
         let ttaybpxlacwcmf = Jjhokwdlcqqsw(title: " Track Your Bluetooth Devices with No Limits", pyalibsgmljv: [" Just for $39.99 for endless tracking."], imageName:  "gtlzzsmtwr", vztefbmngtd: ["Continue"], japjvpgymxxemn: [])
         let otherValue = Jjhokwdlcqqsw(title: " Track Your Bluetooth Devices with No Limits", pyalibsgmljv:  [" Try it Free for 3 days, then just $6.99 per week for endless tracking."], imageName:  "gtlzzsmtwr", vztefbmngtd: ["Try my Free Trial, then $6.99/week"], japjvpgymxxemn: ["Auto renewable. Cancel anytime"])
-        if Fplmuqzve.shared.bazaiywkmg != .kbrcroggkgjttd {
+        if Fplmuqzve.shared.bazaiywkmg != .gnkb  {
             return [ljprnxydpgutqp, yafkmy, hbuqejwxlj, ttaybpxlacwcmf]
         } else {
             return [ljprnxydpgutqp, yafkmy, hbuqejwxlj, otherValue]

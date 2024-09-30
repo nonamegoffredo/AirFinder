@@ -46,7 +46,7 @@ qxmkf()
         })
         fznngjjsuus()
         if config.uwfp {
-            tcvt.dkkiiiokik.textColor = Yckvngyftmtv.xjsreadzn
+            tcvt.dkkiiiokik.textColor = Yckvngyftmtv.xjsreadzn.withAlphaComponent(0.3)
         }
        
         
@@ -69,8 +69,12 @@ qxmkf()
         self.nqyauane = nqyauane
         mejse = Xdmociaaohock(nqyauane: nqyauane)
         tcvt = Bifdbtpjxislqe(cstqkbgyz: mejse.eoaymjkhfiz.count, nqyauane: nqyauane)
-        if config.bazaiywkmg == .dseaclvkvnu {
-            zrhnhuotfceiu = .nonCons
+        if config.bazaiywkmg != .gnkb {
+            if !nqyauane {
+                zrhnhuotfceiu = .nonCons
+            } else {
+                zrhnhuotfceiu = .uultgxk
+            }
         } else {
             zrhnhuotfceiu = .uultgxk
         }
@@ -128,7 +132,9 @@ qxmkf()
             mejse.ifxgqhvqex()
             tcvt.edlmvmak.jabza = mejse.jabza
             tcvt.edlmvmak.isHidden = true
-            hhearjtkyexthp()
+            if nqyauane {
+                hhearjtkyexthp(value: !nqyauane)
+            }
         }
     }
     private let qqis = UIImageView()
@@ -183,7 +189,7 @@ qxmkf()
                     self.hzigszxtce()
                     self.sdwghindcflayh()
                     if self.srewigkheerqcg {
-                        self.hhearjtkyexthp()
+                        self.hhearjtkyexthp(value: false)
                     }
                     DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                         self.vjwclj.removeFromSuperview()
@@ -331,7 +337,7 @@ qxmkf()
                             dnlichfpebh.addAction(UIAlertAction(title: "Try Again", style: .default, handler: { _ in
                                 self.wbqmcm(czqoacwk)
                             }))
-                            dnlichfpebh.view.tintColor = .black
+                            dnlichfpebh.view.tintColor = .blue
                             present(dnlichfpebh, animated: true)
                         }
                     }
@@ -346,7 +352,7 @@ qxmkf()
                 }
             }
             if mejse.okhgzsz {
-                hhearjtkyexthp()
+                hhearjtkyexthp(value: true)
             }
             UIView.transition(with: tcvt.titleLabel, duration: 0.5, options: [.transitionCrossDissolve], animations: {
                 self.tcvt.titleLabel.text = self.mejse.tjzfmdoe.title
@@ -397,7 +403,7 @@ qxmkf()
         let _ = Date().timeIntervalSince1970
     }
     
-    private func hhearjtkyexthp(withAnimation: Bool = true) {
+    private func hhearjtkyexthp(withAnimation: Bool = true, value: Bool = false) {
     var  sbtjt:  String {
     var fcd: String = "mehehtau3EB7F9C1-C6F7-4EDD-8A8D-9C01D269556C"
     let _ = TimeZone.current.secondsFromGMT()
@@ -417,10 +423,10 @@ qxmkf()
 //                restoreButton.isUserInteractionEnabled = true
             } else {
                 Task {
-                    try? await Task.sleep(nanoseconds: 5_000_000_000)
+                    try? await Task.sleep(nanoseconds: value ? 5_000_000_000 : 5_000_000_000 )
                     await MainActor.run {
                         if config.uwfp {
-                            tejmppqln.alpha = 0.3
+                            tejmppqln.alpha = 0.15
                            // restoreButton.alpha = 0.7
                         } else {
                           //  restoreButton.alpha = 1

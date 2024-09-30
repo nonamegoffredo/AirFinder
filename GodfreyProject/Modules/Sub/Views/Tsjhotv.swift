@@ -260,7 +260,7 @@ ewixqk()
         jehpytcpc.addArrangedSubview(asre)
         jehpytcpc.addArrangedSubview(xtifad)
         jehpytcpc.addArrangedSubview(jmkhy)
-        if Fplmuqzve.shared.bazaiywkmg != .kbrcroggkgjttd {
+        if Fplmuqzve.shared.bazaiywkmg != .gnkb {
             jehpytcpc.addArrangedSubview(lifetime)
         }
         czqoacwk.snp.remakeConstraints({ make in

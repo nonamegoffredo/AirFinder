@@ -140,7 +140,7 @@ wpynhdcnfcuw()
         hwdlcibjfld.font = UIFont(name: Iuoc.colyjkflbupe, size: 16)
         hwdlcibjfld.textColor = .white
         hwdlcibjfld.textAlignment = .center
-        if Fplmuqzve.shared.bazaiywkmg != .kbrcroggkgjttd {
+        if Fplmuqzve.shared.bazaiywkmg != .gnkb {
             ncgfj.font = UIFont(name: Iuoc.vduny, size: 7)
         } else {
             ncgfj.font = UIFont(name: Iuoc.vduny, size: 10)
@@ -196,7 +196,7 @@ wpynhdcnfcuw()
         }
         gqavsgzk.backgroundColor = Yckvngyftmtv.purple
         gqavsgzk.layer.cornerRadius = 10
-        if Fplmuqzve.shared.bazaiywkmg != .kbrcroggkgjttd {
+        if Fplmuqzve.shared.bazaiywkmg != .gnkb {
             ncgfj.font = UIFont(name: Iuoc.vduny, size: 7)
         } else {
             ncgfj.font = UIFont(name: Iuoc.vduny, size: 10)
@@ -216,8 +216,8 @@ wpynhdcnfcuw()
         qnw.layer.cornerRadius = 3
         
         if Fplmuqzve.shared.uwfp {
-            ncgfj.textColor = Yckvngyftmtv.xjsreadzn
-            hwdlcibjfld.textColor = Yckvngyftmtv.xjsreadzn
+            ncgfj.textColor = .white
+            hwdlcibjfld.textColor = .white
             tid.textColor = Yckvngyftmtv.xjsreadzn
             aszknsii.textColor = Yckvngyftmtv.xjsreadzn
         } else {
@@ -268,7 +268,7 @@ wpynhdcnfcuw()
         })
         UIView.transition(with: hwdlcibjfld, duration: 0.5, options: [.transitionCrossDissolve], animations: {
             if Fplmuqzve.shared.uwfp {
-                self.hwdlcibjfld.textColor = Yckvngyftmtv.xjsreadzn
+                self.hwdlcibjfld.textColor = .white
             } else {
                 self.hwdlcibjfld.textColor = .white
             }
@@ -301,7 +301,7 @@ wpynhdcnfcuw()
                 self.ncgfj.textColor = Yckvngyftmtv.purple
             } else {
                 if Fplmuqzve.shared.uwfp {
-                    self.ncgfj.textColor = Yckvngyftmtv.xjsreadzn
+                    self.ncgfj.textColor = .white
                 } else {
                     self.ncgfj.textColor = .white
                 }

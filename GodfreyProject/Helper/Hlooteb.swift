@@ -42,9 +42,9 @@ var mfydagjgprz:  Array<Int> {
     
     static let tlwdnktvde = "public_live_wOKgXEU7.jteURUM6nKKM6S2Z8Foq"
     static let kgz = "airFinderPlacement"
-    static let rukzqxj = "airFinderWeekTrial1"
-    static let nybgobqsqi = "airFinderMonthTrial1"
-    static let aghbokd = "airFinderYearTrial1"
+    static let rukzqxj = "subWeekTrial"
+    static let nybgobqsqi = "subMonthTrial"
+    static let aghbokd = "subYearTrial"
     static let nonCons = "airFinderNonCons"
     static let ruytu = "https://docs.google.com/document/d/1DXPIhiJ9wwyfgWnaD3JRgPOLNSfKVBnJ_oNoIKUJcTs/edit"
     static let dfz = "https://docs.google.com/document/d/17PmgKlKpTrWinwu4g_xhU2iuYr1cKM4soDMejhtmGuQ/edit?usp=sharing"
